@@ -1,0 +1,22 @@
+Find out which version of Python you have:
+python --version
+
+or
+
+python3 --version
+
+Setting up your environment:
+conda create --name <ENV_NAME> <PACKAGE>=<VERSION> <PACKAGE> <PACKAGE>
+
+E.g.
+conda create --name stocks python=3.9.7
+
+If you want to install the latest version of Python in your
+environment:
+conda create --name stocks python
+
+Activate the environment:
+conda activate <ENV_NAME>
+
+E.g.
+conda activate stocks
